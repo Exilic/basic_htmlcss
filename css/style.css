@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", Helvetica, "Arial", Arial, sans-serif;
+  color: #333333;
+  background: bisque;
+}
+
+header {
+  border-bottom: 2px solid #333333;
+}
+
+header a {
+  text-decoration: none;
+  color: #333333;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  font-size: 18px;
+  font-weight: 500;
+  border-top: 2px solid #333333;
+  border-radius: 15px 15px 0px 0px;
+}
+
+#loginlink a {
+  font-size: 18px;
+  font-weight: 500;
+  border-top: 2px solid #333333;
+  border-radius: 15px 15px 0px 0px;
+}
+
+main h1 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 0%;
+}
+
+.secondary_page {
+  text-transform: uppercase;
+}
+
+main section {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+main article {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+main article h2 {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 0%;
+  border-top: 2px dotted #333333;
+}
+
+main article img {
+  max-width: 100%;
+  height: auto;
+}
+
+aside {
+  text-align: right;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside h2,
+aside h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+aside li {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+aside ul ol {
+  list-style: none;
+}
+
+footer {
+  border-top: 1px solid #333333;
+  justify-items: center;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+main fieldset {
+  border: none;
+}
+
+fieldset ul {
+  list-style: none;
+}
+
+fieldset li {
+  font-weight: 500;
+  font-size: 18px;
+  float: left;
+}
+
+main form input[type="password"] {
+  background-color: bisque;
+  border-style: none none dotted none;
+  width: 180px;
+}
+
+main form input[type="text"] {
+  background-color: bisque;
+  border-style: none none dotted none;
+  margin-right: 20px;
+  width: 180px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+main form input[type="reset"] {
+  background-color: bisque;
+  border: 2px double #333333;
+  border-radius: 25px;
+  margin-right: 20px;
+  padding: 4px 20px 4px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  width: 120px;
+}
+
+main form input[type="submit"] {
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 25px;
+  padding: 4px 20px 4px 20px;
+  color: bisque;
+  font-size: 18px;
+  font-weight: 500;
+  width: 120px;
+}
